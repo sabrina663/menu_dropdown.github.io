@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    padding:10px;
+
+}
+ul.menu-all li.principal{
+    display: flex;
+    position: relative;
+}
+ul.menu-all li.principal a.top-menu{
+    color:wheat;
+    padding:10px;
+    border:1px solid rgb(252, 249, 249);
+}
+ul.menu-all ul.sub-menu{
+    margin: 15px 0;
+    display: none;
+}
+ul.menu-all li.principal:hover ul.sub-menu{
+    display: flex;
+}
+ul.menu-all ul.sub-menu li a{
+    border:1px solid rgba(2, 2, 2, 0.315);
+}
+ul.menu-all a{
+    color:black;
+    display: inline;
+    padding:10px;
+    background-color: rgb(119, 119, 255);
+}
